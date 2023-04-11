@@ -83,7 +83,7 @@ springboot(
 )
 
 java_binary(
-        name = "maven_springboot-binary",
+        name = "springboot",
         srcs = glob([
             "src/main/java/**/*.java",
         ]),
